@@ -1,5 +1,8 @@
 ---
 summary: "the-install-sandbox"
+name: "the-install-sandbox"
+version: "0.1.0"
+license: "MIT"
 read_when: ["Before installing any skill from ClawHub or unknown source"]
 ---
 
