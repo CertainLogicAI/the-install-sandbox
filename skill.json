@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "2024-v2",
+  "id": "certainlogicai.the-install-sandbox",
+  "displayName": "the-install-sandbox",
+  "version": "0.1.0",
+  "description": "Sandbox and scan ClawHub skills before installation. Isolated tmpfs environment + 30+ security checks. Block malicious skills before they touch your system.",
+  "repository": "https://github.com/CertainLogicAI/the-install-sandbox",
+  "entrypoints": {
+    "cli": {
+      "command": [
+        "python3",
+        "-m",
+        "the_install_sandbox"
+      ]
+    }
+  },
+  "tags": [
+    "security",
+    "sandbox",
+    "safety",
+    "trust",
+    "installation",
+    "audit",
+    "malware-detection",
+    "open-source"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "CertainLogic",
+    "url": "https://github.com/CertainLogicAI"
+  }
+}
