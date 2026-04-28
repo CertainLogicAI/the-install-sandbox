@@ -1,9 +1,12 @@
 ---
 summary: "the-install-sandbox"
 name: "the-install-sandbox"
-version: "0.1.0"
+description: "Sandbox and scan ClawHub skills before installation. Isolated tmpfs + 30+ security checks."
+version: 0.1.0
+author: CertainLogic
 license: MIT
-read_when: ["Before installing any skill from ClawHub or unknown source"]
+read_when: ["installing", "configuring", "troubleshooting"]
+platforms: [linux, macos]
 ---
 
 # the-install-sandbox

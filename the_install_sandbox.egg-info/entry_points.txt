@@ -1,2 +1,0 @@
-[console_scripts]
-the_install_sandbox = the_install_sandbox.__main__:main
